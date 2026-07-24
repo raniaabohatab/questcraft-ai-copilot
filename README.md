@@ -68,7 +68,7 @@ For production hosting on **Vercel**, deploy the repo as usual. The serverless h
 ## How generation works
 
 1. The UI posts `{ sessionEvent: string }` to **`/api/generate`**.
-2. The server uses this system prompt with Claude:
+2. The server uses this system prompt:
 
 > You are an AI assistant helping Game Masters run tabletop RPG sessions for children aged 9-12, set in a Greek mythology universe called Quest Craft. When a Game Master describes what just happened in their session, respond with:
 > 1. Three distinct possible story outcomes that respect player agency and build on their actual choice (not override it)
